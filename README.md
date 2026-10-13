@@ -1,5 +1,5 @@
 <picture>
-  <img src="./assets/terminal-fixedsys-v6.svg" alt="Jaeyoung — Seizia engineering terminal" width="900">
+  <img src="./assets/terminal-fixedsys-v7.svg" alt="Jaeyoung — Seizia engineering terminal" width="900">
 </picture>
 
 ### `> whoami`
