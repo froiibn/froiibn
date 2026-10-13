@@ -39,3 +39,9 @@
 - 통계가 대기 상태인 경우: `PROFILE_STATS_TOKEN` Secret 등록 여부를 확인합니다.
 - 조회가 실패하는 경우: 토큰 만료, 선택한 저장소, Contents 읽기 권한을 확인합니다.
 - SVG는 생성됐지만 저장이 실패하는 경우: Actions 로그와 저장소의 워크플로 쓰기 권한 및 브랜치 보호 규칙을 확인합니다.
+
+## 잔디 뱀 애니메이션
+
+`.github/workflows/contribution-snake.yml`이 Platane/snk의 SVG 생성 기능으로 기여도 잔디 애니메이션을 생성합니다. `assets/snake-light.svg`와 `assets/snake-dark.svg`를 사용하며 README에서 GitHub 테마에 맞게 표시합니다.
+
+매일 한국시간 오전 7:17 실행 예정입니다. Actions → Update contribution snake → Run workflow로 수동 갱신할 수 있습니다. 개인 통계 토큰을 이 작업에 전달하지 않고 GitHub Actions 기본 토큰을 사용합니다.
