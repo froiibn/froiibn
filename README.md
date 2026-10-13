@@ -1,5 +1,5 @@
 <picture>
-  <img src="./assets/header.svg" alt="Jaeyoung Ko — Seizia engineering terminal" width="900">
+  <img src="./assets/header.svg" alt="Jaeyoung — Seizia engineering terminal" width="900">
 </picture>
 
 ### `> whoami`
@@ -14,37 +14,37 @@ Independent software engineer and founder of **[Seizia](https://seizia.com)**. I
 
 **Languages**
 
-![Rust](https://img.shields.io/static/v1?label=&message=Rust&color=102317&style=for-the-badge&logo=rust&logoColor=83F7A3)
-![Python](https://img.shields.io/static/v1?label=&message=Python&color=102317&style=for-the-badge&logo=python&logoColor=83F7A3)
-![C#](https://img.shields.io/static/v1?label=&message=C%23&color=102317&style=for-the-badge&logo=dotnet&logoColor=83F7A3)
-![JavaScript](https://img.shields.io/static/v1?label=&message=JavaScript&color=102317&style=for-the-badge&logo=javascript&logoColor=83F7A3)
-![TypeScript](https://img.shields.io/static/v1?label=&message=TypeScript&color=102317&style=for-the-badge&logo=typescript&logoColor=83F7A3)
-![Kotlin](https://img.shields.io/static/v1?label=&message=Kotlin&color=102317&style=for-the-badge&logo=kotlin&logoColor=83F7A3)
-![CSS](https://img.shields.io/static/v1?label=&message=CSS&color=102317&style=for-the-badge&logo=css&logoColor=83F7A3)
+![Rust](https://img.shields.io/static/v1?label=&message=Rust&color=A56345&style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/static/v1?label=&message=Python&color=3776AB&style=for-the-badge&logo=python&logoColor=white)
+![C#](https://img.shields.io/static/v1?label=&message=C%23&color=7145AA&style=for-the-badge&logo=dotnet&logoColor=white)
+![JavaScript](https://img.shields.io/static/v1?label=&message=JavaScript&color=BBA438&style=for-the-badge&logo=javascript&logoColor=white)
+![TypeScript](https://img.shields.io/static/v1?label=&message=TypeScript&color=3178C6&style=for-the-badge&logo=typescript&logoColor=white)
+![Kotlin](https://img.shields.io/static/v1?label=&message=Kotlin&color=8C4BB5&style=for-the-badge&logo=kotlin&logoColor=white)
+![CSS](https://img.shields.io/static/v1?label=&message=CSS&color=663399&style=for-the-badge&logo=css&logoColor=white)
 
 **Applications**
 
-![Next.js](https://img.shields.io/static/v1?label=&message=Next.js&color=102317&style=for-the-badge&logo=nextdotjs&logoColor=83F7A3)
-![Electron](https://img.shields.io/static/v1?label=&message=Electron&color=102317&style=for-the-badge&logo=electron&logoColor=83F7A3)
-![FastAPI](https://img.shields.io/static/v1?label=&message=FastAPI&color=102317&style=for-the-badge&logo=fastapi&logoColor=83F7A3)
-![ASP.NET](https://img.shields.io/static/v1?label=&message=ASP.NET&color=102317&style=for-the-badge&logo=dotnet&logoColor=83F7A3)
-![Win32](https://img.shields.io/static/v1?label=&message=Win32&color=102317&style=for-the-badge)
+![Next.js](https://img.shields.io/static/v1?label=&message=Next.js&color=263449&style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Electron](https://img.shields.io/static/v1?label=&message=Electron&color=356071&style=for-the-badge&logo=electron&logoColor=white)
+![FastAPI](https://img.shields.io/static/v1?label=&message=FastAPI&color=008B7A&style=for-the-badge&logo=fastapi&logoColor=white)
+![ASP.NET](https://img.shields.io/static/v1?label=&message=ASP.NET&color=7145AA&style=for-the-badge&logo=dotnet&logoColor=white)
+![Win32](https://img.shields.io/static/v1?label=&message=Win32&color=365E8D&style=for-the-badge)
 
 **Data**
 
-![Microsoft SQL Server](https://img.shields.io/static/v1?label=&message=Microsoft%20SQL%20Server&color=102317&style=for-the-badge)
-![PostgreSQL](https://img.shields.io/static/v1?label=&message=PostgreSQL&color=102317&style=for-the-badge&logo=postgresql&logoColor=83F7A3)
-![DuckDB](https://img.shields.io/static/v1?label=&message=DuckDB&color=102317&style=for-the-badge&logo=duckdb&logoColor=83F7A3)
-![pgvector](https://img.shields.io/static/v1?label=&message=pgvector&color=102317&style=for-the-badge)
-![Supabase](https://img.shields.io/static/v1?label=&message=Supabase&color=102317&style=for-the-badge&logo=supabase&logoColor=83F7A3)
+![Microsoft SQL Server](https://img.shields.io/static/v1?label=&message=Microsoft%20SQL%20Server&color=A43B43&style=for-the-badge)
+![PostgreSQL](https://img.shields.io/static/v1?label=&message=PostgreSQL&color=4169A1&style=for-the-badge&logo=postgresql&logoColor=white)
+![DuckDB](https://img.shields.io/static/v1?label=&message=DuckDB&color=8C781F&style=for-the-badge&logo=duckdb&logoColor=white)
+![pgvector](https://img.shields.io/static/v1?label=&message=pgvector&color=376A72&style=for-the-badge)
+![Supabase](https://img.shields.io/static/v1?label=&message=Supabase&color=237F60&style=for-the-badge&logo=supabase&logoColor=white)
 
 **Infrastructure**
 
-![Docker](https://img.shields.io/static/v1?label=&message=Docker&color=102317&style=for-the-badge&logo=docker&logoColor=83F7A3)
-![Ubuntu](https://img.shields.io/static/v1?label=&message=Ubuntu&color=102317&style=for-the-badge&logo=ubuntu&logoColor=83F7A3)
-![Cloudflare](https://img.shields.io/static/v1?label=&message=Cloudflare&color=102317&style=for-the-badge&logo=cloudflare&logoColor=83F7A3)
-![Vercel](https://img.shields.io/static/v1?label=&message=Vercel&color=102317&style=for-the-badge&logo=vercel&logoColor=83F7A3)
-![Linux](https://img.shields.io/static/v1?label=&message=Linux&color=102317&style=for-the-badge&logo=linux&logoColor=83F7A3)
+![Docker](https://img.shields.io/static/v1?label=&message=Docker&color=2475AD&style=for-the-badge&logo=docker&logoColor=white)
+![Ubuntu](https://img.shields.io/static/v1?label=&message=Ubuntu&color=AF4B2C&style=for-the-badge&logo=ubuntu&logoColor=white)
+![Cloudflare](https://img.shields.io/static/v1?label=&message=Cloudflare&color=A86421&style=for-the-badge&logo=cloudflare&logoColor=white)
+![Vercel](https://img.shields.io/static/v1?label=&message=Vercel&color=263449&style=for-the-badge&logo=vercel&logoColor=white)
+![Linux](https://img.shields.io/static/v1?label=&message=Linux&color=696028&style=for-the-badge&logo=linux&logoColor=white)
 
 ### `> projects`
 
