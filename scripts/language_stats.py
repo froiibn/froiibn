@@ -85,7 +85,7 @@ COLORS = {
 PALETTE = ["#79ACE8", "#AF96EE", "#6EC6B7", "#EAA07F", "#E9C965", "#E69BBB"]
 
 
-def render(data=None):
+def render(data=None, theme="light"):
     parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="730" viewBox="0 0 1200 730" role="img" aria-labelledby="title desc">',
              '<title id="title">Profile statistics dashboard</title>',
              '<desc id="desc">Owned non-fork repositories excluding the profile repository. Commit activity covers the past 365 days on repository default branches, uses author dates, and deduplicates commit hashes. Commit languages use repository primary languages. Hours use Korean time.</desc>',
@@ -160,11 +160,20 @@ def render(data=None):
         for xx, yy in [(608,16),(16,366),(608,366)]:
             text(xx+288, yy+190, "Waiting for the first statistics update", "sub", 'text-anchor="middle"')
     parts.append('</svg>')
-    return '\n'.join(parts)
+    svg = '\n'.join(parts).replace('fill="#FCFBFF"', 'fill="none"')
+    if theme == "dark":
+        for before, after in {
+            "#38445E": "#E6EDF3", "#8792A6": "#8B98AA", "#657289": "#ACB9CD",
+            "#35415B": "#E6EDF3", "#E8E6F0": "#303B4B", "#E9E6F0": "#283443",
+            "#EEEAF5": "#202B3C", "#EEE9FB": "#202B3C", "#AD98DB": "#B39DDF",
+        }.items():
+            svg = svg.replace(before, after)
+    return svg
 
 
 if __name__ == "__main__":
     data = collect(os.environ["PROFILE_STATS_TOKEN"], os.environ["PROFILE_OWNER"])
     Path("assets").mkdir(exist_ok=True)
-    Path("assets/profile-dashboard.svg").write_text(render(data), encoding="utf-8")
+    for theme in ("light", "dark"):
+        Path(f"assets/profile-dashboard-{theme}.svg").write_text(render(data, theme), encoding="utf-8")
     print("Profile dashboard updated.")
