@@ -65,6 +65,11 @@ Make complex tools easy to use. Understand how systems work. Build with care.
 
 <sub>Accessible repositories I own, excluding forks and this profile. Commit activity covers the past 365 days on default branches, using author dates and deduplicated commit hashes. Commit-language shares use each repository’s primary language. Times are in Korea Standard Time (UTC+09:00). Private repository names and code are not shown.</sub>
 
+### `> contribution-snake`
+
+![Contribution snake](./assets/snake-dark.svg#gh-dark-mode-only)
+![Contribution snake](./assets/snake-light.svg#gh-light-mode-only)
+
 ---
 
 [Website](https://seizia.com) · [Brevduva](https://brevduva.dev) · [Turbrix](https://turbrix.com)
