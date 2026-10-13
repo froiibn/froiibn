@@ -1,0 +1,48 @@
+name: Update language statistics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 21 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-language-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check statistics access
+        id: access
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: |
+          if [ -n "$PROFILE_STATS_TOKEN" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "Add PROFILE_STATS_TOKEN to enable language statistics."
+          fi
+      - uses: actions/checkout@v4
+        if: steps.access.outputs.ready == 'true'
+      - name: Generate language card
+        if: steps.access.outputs.ready == 'true'
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
+        run: python3 scripts/language_stats.py
+      - name: Save updated card
+        if: steps.access.outputs.ready == 'true'
+        run: |
+          if [ -n "$(git status --porcelain -- assets/languages.svg)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/languages.svg
+            git commit -m "Update language statistics"
+            git push
+          fi
+
