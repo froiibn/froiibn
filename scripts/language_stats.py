@@ -47,23 +47,23 @@ def render(totals):
     if other:
         rows.append(("Other", other))
     colors = {
-        "C#": "#99ffb1", "JavaScript": "#76e49a", "TypeScript": "#5fd582",
-        "Rust": "#b0e8a7", "Python": "#48bd74", "ASP.NET": "#86cb93",
-        "CSS": "#63a977", "Kotlin": "#a8d2a0", "Other": "#537e61",
+        "C#": "#B29AF6", "JavaScript": "#F1D779", "TypeScript": "#85B7F3",
+        "Rust": "#F1AA8B", "Python": "#77CFC1", "ASP.NET": "#A7ACF1",
+        "CSS": "#D69DDB", "Kotlin": "#F1A8C4", "Other": "#B7C1D3",
     }
-    palette = ["#99ffb1", "#76e49a", "#5fd582", "#b0e8a7", "#48bd74"]
+    palette = ["#B29AF6", "#F1D779", "#85B7F3", "#F1AA8B", "#77CFC1"]
     height = max(340, 105 + len(rows) * 25)
     cx, cy, outer, inner = 176, 190, 106, 74
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="700" height="{height}" viewBox="0 0 700 {height}" role="img" aria-labelledby="title desc">',
         '<title id="title">Language map — code language proportions</title>',
         '<desc id="desc">Donut chart of language proportions by code bytes in accessible owned repositories. Forks and the profile repository are excluded.</desc>',
-        '<style>.p{fill:#a0ffb7}.s{fill:#72a481}.border{fill:#050b07;stroke:#326b41}</style>',
-        f'<rect x="1" y="1" width="698" height="{height-2}" rx="3" class="border"/>',
-        '<rect x="24" y="22" width="3" height="16" fill="#64e58d"/>',
-        '<text x="37" y="35" class="p" font-family="monospace" font-size="16" font-weight="700">LANGUAGE MAP</text>',
-        '<text x="24" y="56" class="s" font-family="monospace" font-size="11">Accessible owned repositories / code bytes / forks excluded</text>',
-        f'<circle cx="{cx}" cy="{cy}" r="{(outer+inner)/2}" fill="none" stroke="#142d1c" stroke-width="{outer-inner}"/>',
+        '<style>.p{fill:#35405B}.s{fill:#7D879C}.border{fill:#FCFBFF;stroke:#E9E6F2}</style>',
+        f'<rect x="1" y="1" width="698" height="{height-2}" rx="18" class="border"/>',
+        '<rect x="24" y="22" width="3" height="16" rx="1.5" fill="#B29AF6"/>',
+        '<text x="37" y="35" class="p" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700">Language map</text>',
+        '<text x="24" y="56" class="s" font-family="Arial,Helvetica,sans-serif" font-size="11">Accessible owned repositories / code bytes / forks excluded</text>',
+        f'<circle cx="{cx}" cy="{cy}" r="{(outer+inner)/2}" fill="none" stroke="#F0EDF6" stroke-width="{outer-inner}"/>',
     ]
     start = -math.pi / 2
     def point(radius, angle):
@@ -71,7 +71,7 @@ def render(totals):
     for index, (language, size) in enumerate(rows):
         percentage = size / total * 100
         sweep = size / total * 2 * math.pi
-        gap = min(math.radians(0.8), sweep * 0.12)
+        gap = min(math.radians(1.6), sweep * 0.12)
         a, b = start + gap / 2, start + sweep - gap / 2
         color = colors.get(language, palette[index % len(palette)])
         if len(rows) == 1:
@@ -89,13 +89,13 @@ def render(totals):
         y = 90 + index * 25
         parts.extend([
             f'<rect x="335" y="{y-9}" width="8" height="8" fill="{color}"/>',
-            f'<text x="355" y="{y}" class="p" font-family="monospace" font-size="13">{escape(language)}</text>',
-            f'<text x="674" y="{y}" text-anchor="end" class="s" font-family="monospace" font-size="13">{percentage:.1f}%</text>',
+            f'<text x="355" y="{y}" class="p" font-family="Arial,Helvetica,sans-serif" font-size="13">{escape(language)}</text>',
+            f'<text x="674" y="{y}" text-anchor="end" class="s" font-family="Arial,Helvetica,sans-serif" font-size="13">{percentage:.1f}%</text>',
         ])
         start += sweep
     parts.extend([
-        f'<text x="{cx}" y="{cy-2}" text-anchor="middle" class="p" font-family="monospace" font-size="20">CODE</text>',
-        f'<text x="{cx}" y="{cy+20}" text-anchor="middle" class="s" font-family="monospace" font-size="12">BYTES</text>',
+        f'<text x="{cx}" y="{cy-2}" text-anchor="middle" class="p" font-family="Arial,Helvetica,sans-serif" font-size="20">Code</text>',
+        f'<text x="{cx}" y="{cy+20}" text-anchor="middle" class="s" font-family="Arial,Helvetica,sans-serif" font-size="12">language share</text>',
         '</svg>',
     ])
     return "\n".join(parts)
@@ -105,7 +105,7 @@ if __name__ == "__main__":
     owner = os.environ["PROFILE_OWNER"]
     svg = render(collect(token, owner))
     Path("assets").mkdir(exist_ok=True)
-    Path("assets/language-donut.svg").write_text(svg, encoding="utf-8")
+    Path("assets/language-donut-soft.svg").write_text(svg, encoding="utf-8")
     print("Language card updated.")
 
 
