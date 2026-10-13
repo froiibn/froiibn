@@ -1,5 +1,5 @@
 <picture>
-  <img src="./assets/terminal-jaeyoung-v3.svg" alt="Jaeyoung — Seizia engineering terminal" width="900">
+  <img src="./assets/terminal-consolas-v4.svg" alt="Jaeyoung — Seizia engineering terminal" width="900">
 </picture>
 
 ### `> whoami`
