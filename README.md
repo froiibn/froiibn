@@ -58,13 +58,13 @@ Independent software engineer and founder of **[Seizia](https://seizia.com)**. I
 
 Make complex tools easy to use. Understand how systems work. Build with care.
 
-### `> language-map`
+### `> activity-dashboard`
 
 <picture>
-  <img src="./assets/language-donut-soft.svg" alt="Code language proportions across accessible owned repositories" width="700">
+  <img src="./assets/profile-dashboard.svg" alt="Repository statistics, language distributions, and commit hours" width="1200">
 </picture>
 
-<sub>Measured by code bytes across accessible repositories I own, including private repositories once connected. Forks and this profile repository are excluded. This measures code composition, not proficiency or time spent.</sub>
+<sub>Accessible repositories I own, excluding forks and this profile. Commit activity covers the past 365 days on default branches, using author dates and deduplicated commit hashes. Commit-language shares use each repository’s primary language. Times are in Korea Standard Time (UTC+09:00). Private repository names and code are not shown.</sub>
 
 ---
 
