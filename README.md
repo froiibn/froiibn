@@ -60,9 +60,8 @@ Make complex tools easy to use. Understand how systems work. Build with care.
 
 ### `> activity-dashboard`
 
-<picture>
-  <img src="./assets/profile-dashboard.svg" alt="Repository statistics, language distributions, and commit hours" width="1200">
-</picture>
+![Profile activity dashboard](./assets/profile-dashboard-dark.svg#gh-dark-mode-only)
+![Profile activity dashboard](./assets/profile-dashboard-light.svg#gh-light-mode-only)
 
 <sub>Accessible repositories I own, excluding forks and this profile. Commit activity covers the past 365 days on default branches, using author dates and deduplicated commit hashes. Commit-language shares use each repository’s primary language. Times are in Korea Standard Time (UTC+09:00). Private repository names and code are not shown.</sub>
 
