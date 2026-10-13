@@ -61,7 +61,7 @@ Make complex tools easy to use. Understand how systems work. Build with care.
 ### `> language-map`
 
 <picture>
-  <img src="./assets/language-donut.svg" alt="Code language proportions across accessible owned repositories" width="700">
+  <img src="./assets/language-donut-soft.svg" alt="Code language proportions across accessible owned repositories" width="700">
 </picture>
 
 <sub>Measured by code bytes across accessible repositories I own, including private repositories once connected. Forks and this profile repository are excluded. This measures code composition, not proficiency or time spent.</sub>
