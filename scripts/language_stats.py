@@ -42,21 +42,21 @@ def render(totals):
     if len(entries) > 8:
         rows.append(("Other", sum(value for _, value in entries[8:])))
     colors = {
-        "C#": "#b69aff", "JavaScript": "#ecd66b", "TypeScript": "#71a8f5",
-        "Rust": "#eda57e", "Python": "#6ed5ca", "ASP.NET": "#9aabf5",
-        "CSS": "#9d91ee", "Kotlin": "#e294d7", "Other": "#778ba6",
+        "C#": "#99ffb1", "JavaScript": "#76e49a", "TypeScript": "#5fd582",
+        "Rust": "#b0e8a7", "Python": "#48bd74", "ASP.NET": "#86cb93",
+        "CSS": "#63a977", "Kotlin": "#a8d2a0", "Other": "#537e61",
     }
-    palette = ["#6ed5ca", "#71a8f5", "#b69aff", "#eda57e", "#ecd66b"]
+    palette = ["#48bd74", "#5fd582", "#99ffb1", "#b0e8a7", "#76e49a"]
     height = 92 + len(rows) * 38
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="700" height="{height}" viewBox="0 0 700 {height}" role="img" aria-labelledby="title desc">',
         '<title id="title">Code languages</title>',
         '<desc id="desc">Language proportions by code bytes in accessible owned repositories. Forks and the profile repository are excluded.</desc>',
-        '<style>.p{fill:#edf3fb}.s{fill:#9bacc3}.track{fill:#202d42}.border{fill:#101a2c;stroke:#2a3a52}</style>',
-        f'<rect x="1" y="1" width="698" height="{height-2}" rx="12" class="border"/>',
-        '<rect x="24" y="22" width="3" height="16" rx="1.5" fill="#4ddbc8"/>',
-        '<text x="37" y="35" class="p" font-family="Arial,sans-serif" font-size="16" font-weight="700">CODE LANGUAGES</text>',
-        '<text x="24" y="57" class="s" font-family="Arial,sans-serif" font-size="12">Accessible owned repositories · code bytes · forks excluded</text>',
+        '<style>.p{fill:#a0ffb7}.s{fill:#72a481}.track{fill:#142d1c}.border{fill:#050b07;stroke:#326b41}</style>',
+        f'<rect x="1" y="1" width="698" height="{height-2}" rx="3" class="border"/>',
+        '<rect x="24" y="22" width="3" height="16" rx="1.5" fill="#64e58d"/>',
+        '<text x="37" y="35" class="p" font-family="monospace" font-size="16" font-weight="700">LANGUAGE MAP</text>',
+        '<text x="24" y="57" class="s" font-family="monospace" font-size="12">Accessible owned repositories · code bytes · forks excluded</text>',
     ]
     for index, (language, size) in enumerate(rows):
         y = 84 + index * 38
