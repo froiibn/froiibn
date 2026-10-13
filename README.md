@@ -28,6 +28,7 @@ I build software at **[Seizia](https://seizia.com)**, with a focus on usability 
 
 **Data**
 
+![Microsoft SQL Server](https://img.shields.io/static/v1?label=&message=Microsoft%20SQL%20Server&color=A43B43&style=for-the-badge)
 ![PostgreSQL](https://img.shields.io/static/v1?label=&message=PostgreSQL&color=4169A1&style=for-the-badge&logo=postgresql&logoColor=white)
 ![DuckDB](https://img.shields.io/static/v1?label=&message=DuckDB&color=8C781F&style=for-the-badge&logo=duckdb&logoColor=white)
 ![pgvector](https://img.shields.io/static/v1?label=&message=pgvector&color=376A72&style=for-the-badge)
@@ -50,6 +51,8 @@ I build software at **[Seizia](https://seizia.com)**, with a focus on usability 
 | **Seizia** | Independent software built around practical needs. |
 
 ### Engineering
+
+My primary database expertise is **Microsoft SQL Server (MSSQL)**.
 
 Make complex tools easy to use. Understand how systems work. Build with care.
 
