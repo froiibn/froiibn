@@ -1,8 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="120" viewBox="0 0 700 120" role="img" aria-labelledby="title desc">
-<title id="title">Code languages — setup pending</title><desc id="desc">Language statistics will appear after private repository access is configured. No statistics have been calculated yet.</desc>
-<style>.p{fill:#161616}.s{fill:#777}.b{fill:none;stroke:#ddd}@media(prefers-color-scheme:dark){.p{fill:#eee}.s{fill:#aaa}.b{stroke:#333}}</style>
-<rect x="1" y="1" width="698" height="118" rx="8" class="b"/>
-<text x="24" y="36" class="p" font-family="Arial,sans-serif" font-size="16" font-weight="700">CODE LANGUAGES</text>
-<text x="24" y="66" class="s" font-family="monospace" font-size="13">Private repository statistics · setup pending</text>
-<text x="24" y="91" class="s" font-family="Arial,sans-serif" font-size="12">Updated automatically once repository access is connected.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="434" viewBox="0 0 700 434" role="img" aria-labelledby="title desc">
+<title id="title">Code languages</title>
+<desc id="desc">Language proportions by code bytes in accessible owned repositories. Forks and the profile repository are excluded.</desc>
+<style>.p{fill:#161616}.s{fill:#666}.track{fill:#eee}.bar{fill:#333}.border{fill:none;stroke:#ddd}@media(prefers-color-scheme:dark){.p{fill:#eee}.s{fill:#aaa}.track{fill:#252525}.bar{fill:#ddd}.border{stroke:#333}}</style>
+<rect x="1" y="1" width="698" height="432" rx="8" class="border"/>
+<text x="24" y="34" class="p" font-family="Arial,sans-serif" font-size="16" font-weight="700">CODE LANGUAGES</text>
+<text x="24" y="55" class="s" font-family="Arial,sans-serif" font-size="12">Accessible owned repositories · code bytes · forks excluded</text>
+<text x="24" y="84" class="p" font-family="monospace" font-size="13">C#</text>
+<rect x="190" y="74" width="400" height="8" rx="4" class="track"/>
+<rect x="190" y="74" width="156.15" height="8" rx="4" class="bar"/>
+<text x="676" y="84" text-anchor="end" class="s" font-family="monospace" font-size="13">39.0%</text>
+<text x="24" y="122" class="p" font-family="monospace" font-size="13">JavaScript</text>
+<rect x="190" y="112" width="400" height="8" rx="4" class="track"/>
+<rect x="190" y="112" width="108.67" height="8" rx="4" class="bar"/>
+<text x="676" y="122" text-anchor="end" class="s" font-family="monospace" font-size="13">27.2%</text>
+<text x="24" y="160" class="p" font-family="monospace" font-size="13">TypeScript</text>
+<rect x="190" y="150" width="400" height="8" rx="4" class="track"/>
+<rect x="190" y="150" width="30.41" height="8" rx="4" class="bar"/>
+<text x="676" y="160" text-anchor="end" class="s" font-family="monospace" font-size="13">7.6%</text>
+<text x="24" y="198" class="p" font-family="monospace" font-size="13">Rust</text>
+<rect x="190" y="188" width="400" height="8" rx="4" class="track"/>
+<rect x="190" y="188" width="27.81" height="8" rx="4" class="bar"/>
+<text x="676" y="198" text-anchor="end" class="s" font-family="monospace" font-size="13">7.0%</text>
+<text x="24" y="236" class="p" font-family="monospace" font-size="13">Python</text>
+<rect x="190" y="226" width="400" height="8" rx="4" class="track"/>
+<rect x="190" y="226" width="24.70" height="8" rx="4" class="bar"/>
+<text x="676" y="236" text-anchor="end" class="s" font-family="monospace" font-size="13">6.2%</text>
+<text x="24" y="274" class="p" font-family="monospace" font-size="13">ASP.NET</text>
+<rect x="190" y="264" width="400" height="8" rx="4" class="track"/>
+<rect x="190" y="264" width="13.73" height="8" rx="4" class="bar"/>
+<text x="676" y="274" text-anchor="end" class="s" font-family="monospace" font-size="13">3.4%</text>
+<text x="24" y="312" class="p" font-family="monospace" font-size="13">CSS</text>
+<rect x="190" y="302" width="400" height="8" rx="4" class="track"/>
+<rect x="190" y="302" width="8.84" height="8" rx="4" class="bar"/>
+<text x="676" y="312" text-anchor="end" class="s" font-family="monospace" font-size="13">2.2%</text>
+<text x="24" y="350" class="p" font-family="monospace" font-size="13">Kotlin</text>
+<rect x="190" y="340" width="400" height="8" rx="4" class="track"/>
+<rect x="190" y="340" width="8.77" height="8" rx="4" class="bar"/>
+<text x="676" y="350" text-anchor="end" class="s" font-family="monospace" font-size="13">2.2%</text>
+<text x="24" y="388" class="p" font-family="monospace" font-size="13">Other</text>
+<rect x="190" y="378" width="400" height="8" rx="4" class="track"/>
+<rect x="190" y="378" width="20.91" height="8" rx="4" class="bar"/>
+<text x="676" y="388" text-anchor="end" class="s" font-family="monospace" font-size="13">5.2%</text>
 </svg>
