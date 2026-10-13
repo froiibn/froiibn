@@ -34,6 +34,8 @@ jobs:
           fi
       - uses: actions/checkout@v4
         if: steps.access.outputs.ready == 'true'
+        with:
+          fetch-depth: 0
       - name: Generate language card
         if: steps.access.outputs.ready == 'true'
         env:
@@ -48,6 +50,7 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add assets/profile-dashboard.svg
             git commit -m "Update language statistics"
+            git pull --rebase origin main
             git push
           fi
 
