@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="120" viewBox="0 0 700 120" role="img" aria-labelledby="title desc">
+<title id="title">Code languages — setup pending</title><desc id="desc">Language statistics will appear after private repository access is configured. No statistics have been calculated yet.</desc>
+<style>.p{fill:#161616}.s{fill:#777}.b{fill:none;stroke:#ddd}@media(prefers-color-scheme:dark){.p{fill:#eee}.s{fill:#aaa}.b{stroke:#333}}</style>
+<rect x="1" y="1" width="698" height="118" rx="8" class="b"/>
+<text x="24" y="36" class="p" font-family="Arial,sans-serif" font-size="16" font-weight="700">CODE LANGUAGES</text>
+<text x="24" y="66" class="s" font-family="monospace" font-size="13">Private repository statistics · setup pending</text>
+<text x="24" y="91" class="s" font-family="Arial,sans-serif" font-size="12">Updated automatically once repository access is connected.</text>
+</svg>

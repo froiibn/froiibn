@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" role="img" aria-labelledby="title desc">
+<title id="title">Jaeyoung Ko — Independent Software Engineer</title>
+<desc id="desc">Building useful software. Founder of Seizia.</desc>
+<style>.primary{fill:#161616}.secondary{fill:#666}.line{stroke:#ddd}@media(prefers-color-scheme:dark){.primary{fill:#f2f2f2}.secondary{fill:#aaa}.line{stroke:#333}}@media(prefers-reduced-motion:reduce){.reveal{display:none}.steady{display:block}}</style>
+<defs><clipPath id="typing"><rect width="0" height="32" x="28" y="94"><animate attributeName="width" values="0;0;510;510;0" keyTimes="0;0.08;0.48;0.9;1" dur="10s" repeatCount="indefinite"/></rect></clipPath></defs>
+<text x="28" y="30" class="secondary" font-family="monospace" font-size="12" letter-spacing="3">SEIZIA / INDEPENDENT SOFTWARE</text>
+<text x="26" y="82" class="primary" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="700">Jaeyoung Ko</text>
+<text x="28" y="117" class="primary reveal" font-family="monospace" font-size="20" clip-path="url(#typing)">Building useful software, thoughtfully.</text>
+<text x="28" y="117" class="primary steady" font-family="monospace" font-size="20" display="none">Building useful software, thoughtfully.</text>
+<text x="28" y="152" class="secondary" font-family="monospace" font-size="14">Independent Software Engineer · Founder of Seizia</text>
+<path d="M28 180H872" class="line" fill="none"/>
+</svg>
