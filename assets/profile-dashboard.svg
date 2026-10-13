@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="730" viewBox="0 0 1200 730" role="img" aria-labelledby="title desc">
+<title id="title">Profile statistics dashboard</title>
+<desc id="desc">Owned non-fork repositories excluding the profile repository. Commit activity covers the past 365 days on repository default branches, uses author dates, and deduplicates commit hashes. Commit languages use repository primary languages. Hours use Korean time.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif}.title{fill:#38445E;font-size:25px;font-weight:600}.sub{fill:#8792A6;font-size:12px}.label{fill:#657289;font-size:17px}.value{fill:#35415B;font-size:20px;font-weight:600}</style>
+<rect x="16" y="16" width="576" height="334" rx="18" fill="#FCFBFF" stroke="#E8E6F0"/>
+<text x="41" y="59" class="title" >Stats</text>
+<text x="41" y="82" class="sub" >Owned repositories / activity in the past 365 days</text>
+<circle cx="48" cy="120" r="4" fill="#79ACE8"/>
+<text x="65" y="126" class="label" >Repository stars</text>
+<text x="315" y="126" class="value" text-anchor="end">—</text>
+<circle cx="48" cy="157" r="4" fill="#AF96EE"/>
+<text x="65" y="163" class="label" >Repositories</text>
+<text x="315" y="163" class="value" text-anchor="end">—</text>
+<circle cx="48" cy="194" r="4" fill="#6EC6B7"/>
+<text x="65" y="200" class="label" >Commits</text>
+<text x="315" y="200" class="value" text-anchor="end">—</text>
+<circle cx="48" cy="231" r="4" fill="#EAA07F"/>
+<text x="65" y="237" class="label" >Active repositories</text>
+<text x="315" y="237" class="value" text-anchor="end">—</text>
+<circle cx="48" cy="268" r="4" fill="#E9C965"/>
+<text x="65" y="274" class="label" >Active days</text>
+<text x="315" y="274" class="value" text-anchor="end">—</text>
+<circle cx="449" cy="202" r="70" fill="#EEE9FB"/><g fill="none" stroke="#AD98DB" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M430 183L409 202L430 221M468 183L489 202L468 221M458 170L440 234"/></g>
+<rect x="608" y="16" width="576" height="334" rx="18" fill="#FCFBFF" stroke="#E8E6F0"/>
+<text x="633" y="59" class="title" >Languages by Repository</text>
+<text x="633" y="82" class="sub" >One primary language per owned repository</text>
+<rect x="16" y="366" width="576" height="334" rx="18" fill="#FCFBFF" stroke="#E8E6F0"/>
+<text x="41" y="409" class="title" >Commits by Repo Language</text>
+<text x="41" y="432" class="sub" >Past 365 days / language of the containing repository</text>
+<rect x="608" y="366" width="576" height="334" rx="18" fill="#FCFBFF" stroke="#E8E6F0"/>
+<text x="633" y="409" class="title" >Commit Hours · UTC+09:00</text>
+<text x="633" y="432" class="sub" >Past 365 days / author timestamp / Korean time</text>
+<text x="896" y="206" class="sub" text-anchor="middle">Waiting for the first statistics update</text>
+<text x="304" y="556" class="sub" text-anchor="middle">Waiting for the first statistics update</text>
+<text x="896" y="556" class="sub" text-anchor="middle">Waiting for the first statistics update</text>
+</svg>
