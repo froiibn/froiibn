@@ -6,8 +6,6 @@
 
 Independent software engineer and founder of **[Seizia](https://seizia.com)**. I build practical software with a focus on usability, data workflows, and communication between agents.
 
-**Primary database expertise: Microsoft SQL Server (MSSQL).**
-
 ### `> toolbox`
 
 <sub>Technologies I've worked with, across current and past projects.</sub>
