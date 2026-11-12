@@ -13,13 +13,13 @@
 <text x="315" y="163" class="value" text-anchor="end">47</text>
 <circle cx="48" cy="194" r="4" fill="#6EC6B7"/>
 <text x="65" y="200" class="label" >Commits</text>
-<text x="315" y="200" class="value" text-anchor="end">5,696</text>
+<text x="315" y="200" class="value" text-anchor="end">5,859</text>
 <circle cx="48" cy="231" r="4" fill="#EAA07F"/>
 <text x="65" y="237" class="label" >Active repositories</text>
 <text x="315" y="237" class="value" text-anchor="end">21</text>
 <circle cx="48" cy="268" r="4" fill="#E9C965"/>
 <text x="65" y="274" class="label" >Active days</text>
-<text x="315" y="274" class="value" text-anchor="end">185</text>
+<text x="315" y="274" class="value" text-anchor="end">187</text>
 <circle cx="449" cy="202" r="70" fill="#EEE9FB"/><g fill="none" stroke="#AD98DB" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M430 183L409 202L430 221M468 183L489 202L468 221M458 170L440 234"/></g>
 <rect x="608" y="16" width="576" height="334" rx="18" fill="none" stroke="#E8E6F0"/>
 <text x="633" y="59" class="title" >Languages by Repository</text>
@@ -61,35 +61,35 @@
 <text x="885" y="289" class="sub" text-anchor="end">17.0%</text>
 <text x="1030" y="218" class="value" text-anchor="middle">47</text>
 <circle cx="438" cy="563" r="84" fill="none" stroke="#EEEAF5" stroke-width="31"/>
-<circle cx="438" cy="563" r="84" fill="none" stroke="#EAA07F" stroke-width="31" stroke-dasharray="412.7065 115.0811" stroke-dashoffset="0.0000" transform="rotate(-90 438 563)"><title>Rust: 78.7%</title></circle>
+<circle cx="438" cy="563" r="84" fill="none" stroke="#EAA07F" stroke-width="31" stroke-dasharray="411.7849 116.0027" stroke-dashoffset="0.0000" transform="rotate(-90 438 563)"><title>Rust: 78.5%</title></circle>
 <rect x="42" y="465" width="11" height="11" rx="3" fill="#EAA07F"/>
 <text x="62" y="477" class="label" >Rust</text>
-<text x="293" y="477" class="sub" text-anchor="end">78.7%</text>
-<circle cx="438" cy="563" r="84" fill="none" stroke="#6EC6B7" stroke-width="31" stroke-dasharray="36.6949 491.0927" stroke-dashoffset="-415.2065" transform="rotate(-90 438 563)"><title>Python: 7.4%</title></circle>
+<text x="293" y="477" class="sub" text-anchor="end">78.5%</text>
+<circle cx="438" cy="563" r="84" fill="none" stroke="#6EC6B7" stroke-width="31" stroke-dasharray="37.5863 490.2013" stroke-dashoffset="-414.2849" transform="rotate(-90 438 563)"><title>Python: 7.6%</title></circle>
 <rect x="42" y="492" width="11" height="11" rx="3" fill="#6EC6B7"/>
 <text x="62" y="504" class="label" >Python</text>
-<text x="293" y="504" class="sub" text-anchor="end">7.4%</text>
-<circle cx="438" cy="563" r="84" fill="none" stroke="#79ACE8" stroke-width="31" stroke-dasharray="28.3556 499.4320" stroke-dashoffset="-454.4014" transform="rotate(-90 438 563)"><title>TypeScript: 5.8%</title></circle>
-<rect x="42" y="519" width="11" height="11" rx="3" fill="#79ACE8"/>
-<text x="62" y="531" class="label" >TypeScript</text>
-<text x="293" y="531" class="sub" text-anchor="end">5.8%</text>
-<circle cx="438" cy="563" r="84" fill="none" stroke="#EAA07F" stroke-width="31" stroke-dasharray="26.3171 501.4705" stroke-dashoffset="-485.2569" transform="rotate(-90 438 563)"><title>Java: 5.5%</title></circle>
-<rect x="42" y="546" width="11" height="11" rx="3" fill="#EAA07F"/>
-<text x="62" y="558" class="label" >Java</text>
-<text x="293" y="558" class="sub" text-anchor="end">5.5%</text>
-<circle cx="438" cy="563" r="84" fill="none" stroke="#E9C965" stroke-width="31" stroke-dasharray="5.9070 521.8805" stroke-dashoffset="-514.0740" transform="rotate(-90 438 563)"><title>JavaScript: 1.3%</title></circle>
+<text x="293" y="504" class="sub" text-anchor="end">7.6%</text>
+<circle cx="438" cy="563" r="84" fill="none" stroke="#6EC6B7" stroke-width="31" stroke-dasharray="27.5872 500.2003" stroke-dashoffset="-454.3711" transform="rotate(-90 438 563)"><title>Java: 5.7%</title></circle>
+<rect x="42" y="519" width="11" height="11" rx="3" fill="#6EC6B7"/>
+<text x="62" y="531" class="label" >Java</text>
+<text x="293" y="531" class="sub" text-anchor="end">5.7%</text>
+<circle cx="438" cy="563" r="84" fill="none" stroke="#79ACE8" stroke-width="31" stroke-dasharray="27.4971 500.2904" stroke-dashoffset="-484.4584" transform="rotate(-90 438 563)"><title>TypeScript: 5.7%</title></circle>
+<rect x="42" y="546" width="11" height="11" rx="3" fill="#79ACE8"/>
+<text x="62" y="558" class="label" >TypeScript</text>
+<text x="293" y="558" class="sub" text-anchor="end">5.7%</text>
+<circle cx="438" cy="563" r="84" fill="none" stroke="#E9C965" stroke-width="31" stroke-dasharray="5.7427 522.0449" stroke-dashoffset="-514.4555" transform="rotate(-90 438 563)"><title>JavaScript: 1.3%</title></circle>
 <rect x="42" y="573" width="11" height="11" rx="3" fill="#E9C965"/>
 <text x="62" y="585" class="label" >JavaScript</text>
 <text x="293" y="585" class="sub" text-anchor="end">1.3%</text>
-<circle cx="438" cy="563" r="84" fill="none" stroke="#E69BBB" stroke-width="31" stroke-dasharray="4.6469 523.1407" stroke-dashoffset="-521.0234" transform="rotate(-90 438 563)"><title>Kotlin: 1.0%</title></circle>
+<circle cx="438" cy="563" r="84" fill="none" stroke="#E69BBB" stroke-width="31" stroke-dasharray="4.5176 523.2700" stroke-dashoffset="-521.2116" transform="rotate(-90 438 563)"><title>Kotlin: 1.0%</title></circle>
 <rect x="42" y="600" width="11" height="11" rx="3" fill="#E69BBB"/>
 <text x="62" y="612" class="label" >Kotlin</text>
 <text x="293" y="612" class="sub" text-anchor="end">1.0%</text>
-<circle cx="438" cy="563" r="84" fill="none" stroke="#AEBACD" stroke-width="31" stroke-dasharray="1.1026 526.6849" stroke-dashoffset="-526.4903" transform="rotate(-90 438 563)"><title>Other: 0.2%</title></circle>
+<circle cx="438" cy="563" r="84" fill="none" stroke="#AEBACD" stroke-width="31" stroke-dasharray="1.0720 526.7156" stroke-dashoffset="-526.5264" transform="rotate(-90 438 563)"><title>Other: 0.2%</title></circle>
 <rect x="42" y="627" width="11" height="11" rx="3" fill="#AEBACD"/>
 <text x="62" y="639" class="label" >Other</text>
 <text x="293" y="639" class="sub" text-anchor="end">0.2%</text>
-<text x="438" y="568" class="value" text-anchor="middle">5696</text>
+<text x="438" y="568" class="value" text-anchor="middle">5859</text>
 <path d="M654 639.0h495" stroke="#E9E6F0"/>
 <text x="645" y="643.0" class="sub" text-anchor="end">0</text>
 <path d="M654 600.0h495" stroke="#E9E6F0"/>
@@ -100,35 +100,35 @@
 <text x="645" y="526.0" class="sub" text-anchor="end">450</text>
 <path d="M654 483.0h495" stroke="#E9E6F0"/>
 <text x="645" y="487.0" class="sub" text-anchor="end">600</text>
-<rect x="657.00" y="492.10" width="14.62" height="146.90" rx="3" fill="#85C7B0"><title>00:00: 565 commits</title></rect>
-<rect x="677.62" y="492.88" width="14.62" height="146.12" rx="3" fill="#85C7B0"><title>01:00: 562 commits</title></rect>
-<rect x="698.25" y="498.86" width="14.62" height="140.14" rx="3" fill="#85C7B0"><title>02:00: 539 commits</title></rect>
-<rect x="718.88" y="492.62" width="14.62" height="146.38" rx="3" fill="#85C7B0"><title>03:00: 563 commits</title></rect>
-<rect x="739.50" y="528.50" width="14.62" height="110.50" rx="3" fill="#85C7B0"><title>04:00: 425 commits</title></rect>
-<rect x="760.12" y="573.48" width="14.62" height="65.52" rx="3" fill="#85C7B0"><title>05:00: 252 commits</title></rect>
-<rect x="780.75" y="597.14" width="14.62" height="41.86" rx="3" fill="#85C7B0"><title>06:00: 161 commits</title></rect>
-<rect x="801.38" y="620.80" width="14.62" height="18.20" rx="3" fill="#85C7B0"><title>07:00: 70 commits</title></rect>
+<rect x="657.00" y="488.98" width="14.62" height="150.02" rx="3" fill="#85C7B0"><title>00:00: 577 commits</title></rect>
+<rect x="677.62" y="489.24" width="14.62" height="149.76" rx="3" fill="#85C7B0"><title>01:00: 576 commits</title></rect>
+<rect x="698.25" y="491.32" width="14.62" height="147.68" rx="3" fill="#85C7B0"><title>02:00: 568 commits</title></rect>
+<rect x="718.88" y="489.50" width="14.62" height="149.50" rx="3" fill="#85C7B0"><title>03:00: 575 commits</title></rect>
+<rect x="739.50" y="525.64" width="14.62" height="113.36" rx="3" fill="#85C7B0"><title>04:00: 436 commits</title></rect>
+<rect x="760.12" y="571.92" width="14.62" height="67.08" rx="3" fill="#85C7B0"><title>05:00: 258 commits</title></rect>
+<rect x="780.75" y="589.60" width="14.62" height="49.40" rx="3" fill="#85C7B0"><title>06:00: 190 commits</title></rect>
+<rect x="801.38" y="618.20" width="14.62" height="20.80" rx="3" fill="#85C7B0"><title>07:00: 80 commits</title></rect>
 <rect x="822.00" y="622.36" width="14.62" height="16.64" rx="3" fill="#85C7B0"><title>08:00: 64 commits</title></rect>
-<rect x="842.62" y="611.70" width="14.62" height="27.30" rx="3" fill="#85C7B0"><title>09:00: 105 commits</title></rect>
-<rect x="863.25" y="605.72" width="14.62" height="33.28" rx="3" fill="#85C7B0"><title>10:00: 128 commits</title></rect>
-<rect x="883.88" y="600.26" width="14.62" height="38.74" rx="3" fill="#85C7B0"><title>11:00: 149 commits</title></rect>
-<rect x="904.50" y="592.20" width="14.62" height="46.80" rx="3" fill="#85C7B0"><title>12:00: 180 commits</title></rect>
-<rect x="925.12" y="593.50" width="14.62" height="45.50" rx="3" fill="#85C7B0"><title>13:00: 175 commits</title></rect>
-<rect x="945.75" y="596.36" width="14.62" height="42.64" rx="3" fill="#85C7B0"><title>14:00: 164 commits</title></rect>
+<rect x="842.62" y="611.44" width="14.62" height="27.56" rx="3" fill="#85C7B0"><title>09:00: 106 commits</title></rect>
+<rect x="863.25" y="600.78" width="14.62" height="38.22" rx="3" fill="#85C7B0"><title>10:00: 147 commits</title></rect>
+<rect x="883.88" y="599.74" width="14.62" height="39.26" rx="3" fill="#85C7B0"><title>11:00: 151 commits</title></rect>
+<rect x="904.50" y="591.94" width="14.62" height="47.06" rx="3" fill="#85C7B0"><title>12:00: 181 commits</title></rect>
+<rect x="925.12" y="593.24" width="14.62" height="45.76" rx="3" fill="#85C7B0"><title>13:00: 176 commits</title></rect>
+<rect x="945.75" y="596.10" width="14.62" height="42.90" rx="3" fill="#85C7B0"><title>14:00: 165 commits</title></rect>
 <rect x="966.38" y="606.50" width="14.62" height="32.50" rx="3" fill="#85C7B0"><title>15:00: 125 commits</title></rect>
-<rect x="987.00" y="600.00" width="14.62" height="39.00" rx="3" fill="#85C7B0"><title>16:00: 150 commits</title></rect>
-<rect x="1007.62" y="598.44" width="14.62" height="40.56" rx="3" fill="#85C7B0"><title>17:00: 156 commits</title></rect>
-<rect x="1028.25" y="600.52" width="14.62" height="38.48" rx="3" fill="#85C7B0"><title>18:00: 148 commits</title></rect>
+<rect x="987.00" y="599.74" width="14.62" height="39.26" rx="3" fill="#85C7B0"><title>16:00: 151 commits</title></rect>
+<rect x="1007.62" y="598.18" width="14.62" height="40.82" rx="3" fill="#85C7B0"><title>17:00: 157 commits</title></rect>
+<rect x="1028.25" y="600.00" width="14.62" height="39.00" rx="3" fill="#85C7B0"><title>18:00: 150 commits</title></rect>
 <rect x="1048.88" y="603.38" width="14.62" height="35.62" rx="3" fill="#85C7B0"><title>19:00: 137 commits</title></rect>
 <rect x="1069.50" y="612.22" width="14.62" height="26.78" rx="3" fill="#85C7B0"><title>20:00: 103 commits</title></rect>
-<rect x="1090.12" y="600.00" width="14.62" height="39.00" rx="3" fill="#85C7B0"><title>21:00: 150 commits</title></rect>
-<rect x="1110.75" y="564.12" width="14.62" height="74.88" rx="3" fill="#85C7B0"><title>22:00: 288 commits</title></rect>
-<rect x="1131.38" y="551.38" width="14.62" height="87.62" rx="3" fill="#85C7B0"><title>23:00: 337 commits</title></rect>
+<rect x="1090.12" y="599.48" width="14.62" height="39.52" rx="3" fill="#85C7B0"><title>21:00: 152 commits</title></rect>
+<rect x="1110.75" y="563.60" width="14.62" height="75.40" rx="3" fill="#85C7B0"><title>22:00: 290 commits</title></rect>
+<rect x="1131.38" y="549.56" width="14.62" height="89.44" rx="3" fill="#85C7B0"><title>23:00: 344 commits</title></rect>
 <text x="664.3125" y="662" class="sub" text-anchor="middle">0</text>
 <text x="788.0625" y="662" class="sub" text-anchor="middle">6</text>
 <text x="911.8125" y="662" class="sub" text-anchor="middle">12</text>
 <text x="1035.5625" y="662" class="sub" text-anchor="middle">18</text>
 <text x="1138.6875" y="662" class="sub" text-anchor="middle">23</text>
 <text x="1149" y="684" class="sub" text-anchor="end">hour of day</text>
-<text x="1184" y="722" class="sub" text-anchor="end">Data: 2025-11-11 — 2026-11-11 / KST</text>
+<text x="1184" y="722" class="sub" text-anchor="end">Data: 2025-11-12 — 2026-11-12 / KST</text>
 </svg>
